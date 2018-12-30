@@ -1,0 +1,15 @@
+<view class="chapter-list">
+    <navigator url="../dashboard/dashboard">
+      <block wx:for="1"><icon type="search" size="12px" /></block>
+      <text class="-ui-subtitle"> 订阅城市</text>
+    </navigator>
+
+    <view wx:for="{{chapter_display}}" wx:key="index">
+        <view bindtouchend="touchE" bindtouchmove="touchM" bindtouchstart="touchS" class="{{item.style}}" data-index="{{index}}">
+            <view class="{{item.read?'-ui-title-read':'-ui-title'}}" data-index="{{index}}">
+          {{item.title}}
+        </view>
+        </view>
+    </view>
+    <!-- 以上为信息流，RSS消息的标题 -->
+</view>
