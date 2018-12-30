@@ -1,0 +1,15 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/dashboard/dashboard",
+        "pages/single/single"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#33A6B8",
+        "navigationBarTitleText": "TelegraphOne",
+        "navigationBarTextStyle": "white",
+        "enablePullDownRefresh": true,
+        "onReachBottomDistance": 50
+    }
+}
