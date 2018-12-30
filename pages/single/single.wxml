@@ -1,0 +1,10 @@
+<import src="../../wxParse/wxParse.wxml"></import>
+<view class="chapter">
+  <scroll-view class="scroll-container" scrollWithAnimation="true" scrollY="true">
+    <view class="-ui-title">{{chapter.title}}</view>
+    <view class="-ui-line"></view>
+    <view class="-ui-subtitle">
+      <template is="wxParse" data="{{wxParseData:article.nodes}}"></template>
+    </view>
+  </scroll-view>
+</view>
