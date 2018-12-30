@@ -1,0 +1,28 @@
+<view class="containerx">
+
+  <view class="itemx">
+    北京
+    <switch bindchange="switch1Change" />
+  </view>
+
+  <view class="itemx">
+    上海
+    <switch bindchange="switch2Change" />
+  </view>
+
+  <view class="itemx">
+    广州
+    <switch bindchange="switch3Change" />
+  </view>
+
+  <view class="itemx">
+    深圳
+    <switch bindchange="switch4Change" />
+  </view>
+
+  <view class="itemx">
+    其他
+    <switch bindchange="switch5Change" />
+  </view>
+
+</view>
